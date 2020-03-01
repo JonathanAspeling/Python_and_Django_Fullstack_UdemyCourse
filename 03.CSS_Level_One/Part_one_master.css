@@ -1,0 +1,25 @@
+/* Comments are done like this in CSS
+Also works on multi line.
+*/
+
+/* basic format:
+selected tag{
+  property: value;
+} */
+
+h1{
+  color: blue;
+}
+
+li{
+  color: rgb(209, 48, 188);
+}
+
+p{
+  color: #e0341d;
+}
+
+h4 {
+  color: rgba(32, 176, 32, 1);
+
+}
