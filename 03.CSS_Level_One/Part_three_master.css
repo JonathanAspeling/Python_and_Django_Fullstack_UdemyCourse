@@ -1,0 +1,34 @@
+.firstDiv{
+  color:red;
+}
+
+.secondDiv{
+  color:blue;
+}
+
+#singleout{
+  color: green;
+  text-decoration: line-through;
+}
+
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+li a{
+  color: red;
+}
+
+li a[href="www.w3schools.com"]{
+  color: black;
+  border: 5px solid orange;
+}
+
+/*
+Not common but will overwrite CSS identifiers exept ID.
+ *{
+  color: black;
+}
+
+
+*/
