@@ -1,0 +1,75 @@
+html,body{
+  background-color: aqua;
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav_bar{
+  background-color: #020521;
+  /* margin: 0px; */
+
+  height: 30px;
+  color: white;
+}
+
+.Main_Text{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  background-color: #020521;
+  color: white;
+  height: auto;
+  padding-bottom: 0;
+}
+.formy{
+
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0px;
+
+    background-color: #020521;
+    color: white;
+    height: 100%;
+    padding-top: 0;
+
+    text-align: center;
+
+}
+
+h1{
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+p{
+  text-align: center;
+  padding: 10px 20% 10px 20%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+input[type="submit" i]{
+  background-color: orange;
+  border-radius: 45px;
+  font-size: 15px;
+  padding: 35px 20px;
+}
+
+#specialmain{
+  margin-bottom: 30px;
+}
+
+#specialnav{
+  margin-top: 30px;
+  height: 100%;
+
+}
