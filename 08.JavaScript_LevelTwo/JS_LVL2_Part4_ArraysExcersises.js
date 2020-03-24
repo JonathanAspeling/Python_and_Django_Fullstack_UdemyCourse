@@ -18,13 +18,13 @@ function effectiveRemvArrElement(array,elementToRemove){
 //  Uses position of element to apply slice array method. Removes only desired
 //  Element at position obtained.
   var index = array.indexOf(elementToRemove);
-  array.splice(index,1)
+  array.splice(index,1);
 }
 
 
 function studentNameApp(){
   while (quitVariable == false) {
-      var functionAsk = prompt("Which Function would you like to execute?");
+      var functionAsk = prompt("Which Function would you like to execute?(Add,Remove,List,Quit)");
       if (functionAsk==="add" || functionAsk==="Add") {
         var functionAskAdd = prompt("Enter the Student's name that you want to add");
         studentArray.push(functionAskAdd);
